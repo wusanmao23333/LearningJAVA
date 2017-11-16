@@ -41,7 +41,7 @@ result:
 #### 实验结果
 
 result:
-
+  
 ![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/int4.png)  
 
 ### 实验四 水仙花数
