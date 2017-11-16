@@ -3,15 +3,15 @@
 ### 模拟实现FCFS（先来先服务）算法
 #### 实验要求  
 
-FCFS算法按照任务到达的顺序进行服务，先来先服务
-每个Task对象可以描述为至少包含下列属性：
-taskID //任务ID
-arrivalTime //到达时间
-serviceTime //服务时间
-startingTime //开始时间
-finishingTime //完成时间=开始时间+服务时间
-turnAroundTime //周转时间=完成时间-达到时间
-weightTurnAround //带权周转时间=周转时间/服务时间
+FCFS算法按照任务到达的顺序进行服务，先来先服务  
+每个Task对象可以描述为至少包含下列属性：  
+taskID //任务ID  
+arrivalTime //到达时间   
+serviceTime //服务时间    
+startingTime //开始时间    
+finishingTime //完成时间=开始时间+服务时间    
+turnAroundTime //周转时间=完成时间-达到时间    
+weightTurnAround //带权周转时间=周转时间/服务时间  
 其他的属性根据程序需要设置  
 
 
@@ -232,9 +232,9 @@ weightTurnAround //带权周转时间=周转时间/服务时间
 
 两个队列情况  
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF1.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF2.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF3.png) 
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF4.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF5.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF6.png) 
 
 
 
