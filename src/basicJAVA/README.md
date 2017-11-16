@@ -35,7 +35,7 @@ result:
 #### 实验要求
 
 利用for循环编写一个程序，将如下图案分别打印输
-出。
+出。  
 ![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/int4.png)
  
 #### 实验结果
