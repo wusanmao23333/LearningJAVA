@@ -11,7 +11,7 @@
 
 result:   
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/IOBasic.png)  
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/IOBaisc.png)  
 
 ### 实验二 获取系统的文件树
 #### 实验要求
