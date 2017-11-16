@@ -15,5 +15,5 @@ isEmpty和isBoiled方法来获取empty和boiled标志位的值
 
 
 #### 实验结果  
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/int6.png)  
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/int5.png)  
 
