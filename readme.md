@@ -1,6 +1,7 @@
-# LearningJAVA  
-## 目录：/src  
-## 内容：  
+# LearningJAVA 
+## 目录：/img -- 实验结果截图
+## 目录：/src  
+## 内容：  
 ### basicJAVA：-- 实验二  
 ##### IsLeapYear.java -- 判断是否闰年  
 ##### PrintNarcNumber.java -- 打印水仙花数
