@@ -2,7 +2,7 @@
 ### 目录：/img -- 实验结果截图
 ### 目录：/src  
 ### 内容：  
-### basicJAVA：-- 实验二  
+### basicJAVA：-- 实验二 简单 java 
 ##### IsLeapYear.java -- 判断是否闰年  
 ##### PrintNarcNumber.java -- 打印水仙花数
 ##### PrintRhombus.java -- 打印菱形图片 
