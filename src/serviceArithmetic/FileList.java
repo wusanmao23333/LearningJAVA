@@ -1,6 +1,6 @@
 package serviceArithmetic;
 /**
- * ÎÄ¼şÉú³ÉÆ÷
+ * æ–‡ä»¶ç”Ÿæˆå™¨
  * author by zugen
  * data: 2017/11/1
  */
@@ -11,21 +11,19 @@ public class FileList {
 
 	public static int randomTime() {
 		int[] time = {6,2,1,3,9};
-		//²úÉú0-(arr.length-1)µÄÕûÊıÖµ,Ò²ÊÇÊı×éµÄË÷Òı
 		int index=(int)(Math.random()*time.length);
 		return time[index];
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Éú³É120¸öÈÎÎñ
 		int[][] content = new int[120][3];
 		for (int i = 0; i < content.length; i++) {
 			content[i][0] = i+1;
 			content[i][1] = i;
 			content[i][2] = randomTime();
 		}
-		//´æ·ÅÔÚFileList.txtÀï
+		
 		File file = new File("FileList.txt");
 		try {
 			FileWriter fw = new FileWriter(file);

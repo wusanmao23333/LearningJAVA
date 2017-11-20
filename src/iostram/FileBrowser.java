@@ -16,18 +16,18 @@ import javax.swing.tree.TreePath;
 
 public class FileBrowser extends JPanel {
 	
-	private JTree tree; //´´½¨Ä¬ÈÏµÄÊ÷
-    private TreePath treePath; //Â·¾¶
+	private JTree tree; //åˆ›å»ºæ ‘
+    private TreePath treePath; //æ ‘çš„è·¯å¾„
     int t=0;
     public FileBrowser() {
     	
         this.setLayout(new BorderLayout());
-        DefaultMutableTreeNode root = new DefaultMutableTreeNode("ÎÒµÄ¼ÆËã»ú");//ÉèÖÃ¸ú½Úµã
+        DefaultMutableTreeNode root = new DefaultMutableTreeNode("æˆ‘çš„ç”µè„‘");//è®¾ç½®æ ¹è·¯å¾„
         tree = new JTree(root);
         File[] roots = File.listRoots();
         for (int i = 0; i < roots.length; i++) {
             DefaultMutableTreeNode node = new DefaultMutableTreeNode(roots[i].getPath());
-            root.add(node);//Ôö¼Óµ½¸ù½Úµã
+            root.add(node);//ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Úµï¿½
         }
         MouseListener ml = new MouseAdapter() {
             public void mousePressed(MouseEvent e) {

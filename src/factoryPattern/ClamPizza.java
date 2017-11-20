@@ -1,8 +1,8 @@
 package factoryPattern;
 /**
  * 
- * @author ×æ¸ù
- *	ClamPizzaÊÇPizzaµÄÒ»¸ö×ÓÀà
+ * @author ï¿½ï¿½ï¿½
+ *	ClamPizzaï¿½ï¿½Pizzaï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 
 public class ClamPizza extends Pizza {
@@ -10,25 +10,25 @@ public class ClamPizza extends Pizza {
 	@Override
 	public void prepare() {
 		// TODO Auto-generated method stub
-		System.out.println("ClamPizza²ÄÁÏ×¼±¸£¡");
+		System.out.println("ClamPizzaææ–™å‡†å¤‡");
 	}
 
 	@Override
 	public void bake() {
 		// TODO Auto-generated method stub
-		System.out.println("ClamPizzaºæ±ºÅûÈø£¡");
+		System.out.println("ClamPizzaçƒ˜ç„™æŠ«è¨");
 	}
 
 	@Override
 	public void cut() {
 		// TODO Auto-generated method stub
-		System.out.println("ClamPizzaÇĞ¸îÅûÈø£¡");
+		System.out.println("ClamPizzaåˆ‡å‰²æŠ«è¨");
 	}
 
 	@Override
 	public void box() {
 		// TODO Auto-generated method stub
-		System.out.println("ClamPizzaÅûÈø°ü×°£¡");
+		System.out.println("ClamPizzaæŠ«è¨åŒ…è£…");
 	}
 	
 }

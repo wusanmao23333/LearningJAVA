@@ -1,33 +1,33 @@
 package factoryPattern;
 /**
  * 
- * @author ×æ¸ù
- *	CheesePizzaÊÇPizzaµÄÒ»¸ö×ÓÀà
+ * @author ï¿½ï¿½ï¿½
+ *	CheesePizzaï¿½ï¿½Pizzaï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class CheesePizza extends Pizza{
 
 	@Override
 	public void prepare() {
 		// TODO Auto-generated method stub
-		System.out.println("CheesePizza²ÄÁÏ×¼±¸£¡");
+		System.out.println("CheesePizzaææ–™å‡†å¤‡");
 	}
 
 	@Override
 	public void bake() {
 		// TODO Auto-generated method stub
-		System.out.println("CheesePizzaºæ±ºÅûÈø£¡");
+		System.out.println("CheesePizzaçƒ˜ç„™æŠ«è¨");
 	}
 
 	@Override
 	public void cut() {
 		// TODO Auto-generated method stub
-		System.out.println("CheesePizzaÇĞ¸îÅûÈø£¡");
+		System.out.println("CheesePizzaåˆ‡å‰²æŠ«è¨");
 	}
 
 	@Override
 	public void box() {
 		// TODO Auto-generated method stub
-		System.out.println("CheesePizzaÅûÈø°ü×°£¡");
+		System.out.println("CheesePizzaæŠ«è¨åŒ…è£…");
 	}
 
 }

@@ -1,6 +1,6 @@
 package serviceArithmetic;
 /**
- * FCFS一个队列算法
+ * 
  * author by zugen
  * data: 2017/11/1
  */

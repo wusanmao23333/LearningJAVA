@@ -2,8 +2,8 @@ package factoryPattern;
 
 /**
  * 
- * @author ×æ¸ù
- *	PepperoniPizzaÊÇPizzaµÄÒ»¸ö×ÓÀà
+ * @author ï¿½ï¿½ï¿½
+ *	PepperoniPizzaï¿½ï¿½Pizzaï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 
 public class PepperoniPizza extends Pizza {
@@ -11,25 +11,25 @@ public class PepperoniPizza extends Pizza {
 	@Override
 	public void prepare() {
 		// TODO Auto-generated method stub
-		System.out.println("PepperoniPizza²ÄÁÏ×¼±¸£¡");
+		System.out.println("PepperoniPizzaææ–™å‡†å¤‡");
 	}
 
 	@Override
 	public void bake() {
 		// TODO Auto-generated method stub
-		System.out.println("PepperoniPizzaºæ±ºÅûÈø£¡");
+		System.out.println("PepperoniPizzaçƒ˜ç„™æŠ«è¨");
 	}
 
 	@Override
 	public void cut() {
 		// TODO Auto-generated method stub
-		System.out.println("PepperoniPizzaÇĞ¸îÅûÈø£¡");
+		System.out.println("PepperoniPizzaåˆ‡å‰²æŠ«è¨");
 	}
 
 	@Override
 	public void box() {
 		// TODO Auto-generated method stub
-		System.out.println("PepperoniPizzaÅûÈø°ü×°£¡");
+		System.out.println("PepperoniPizzaæŠ«è¨åŒ…è£…");
 	}
 
 }

@@ -24,13 +24,13 @@ public class FileScanner {
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			Calendar cal = Calendar.getInstance();
 			
-			System.out.println("¸ÃÄ¿Â¼ÏÂ¶ÔÏó¸öÊı£º" + Filelist.length + "¼ÇÂ¼µ½Filebin.txtÀï");
+			System.out.println("è¯¥ç›®å½•ä¸‹å¯¹è±¡ä¸ªæ•°ï¼š" + Filelist.length + "è®°å½•åˆ°Filebin.txt");
 			
 			for (int i = 0; i < Filelist.length; i++) {
 				 if (!Filelist[i].isFile()) {
 					 cal.setTimeInMillis(Filelist[i].lastModified());
 					 String s = df.format(cal.getTime());	
-			         inFile.write("ÎÄ¼ş¼Ğ£º" + Filelist[i] + "\tĞŞ¸ÄÈÕÆÚ£º" + s + "\tÎÄ¼ş´óĞ¡£º" + Filelist[i].length()*1.0/1024 + "KB" + "\n");
+			         inFile.write("æ–‡ä»¶å¤¹" + Filelist[i] + "\tä¿®æ”¹æ—¥æœŸï¼š" + s + "\tæ–‡ä»¶å¤§å°" + Filelist[i].length()*1.0/1024 + "KB" + "\n");
 				 } 
 			}
 			
@@ -38,7 +38,7 @@ public class FileScanner {
 				 if (Filelist[i].isFile()) {
 					 cal.setTimeInMillis(Filelist[i].lastModified());
 					 String s = df.format(cal.getTime());
-					 inFile.write("ÎÄ¼ş£º" + Filelist[i] + "\tĞŞ¸ÄÈÕÆÚ£º" + s + "\tÎÄ¼ş´óĞ¡£º" + Filelist[i].length()*1.0/1024 + "KB" + "\n");
+					 inFile.write("æ–‡ä»¶" + Filelist[i] + "\tä¿®æ”¹æ—¥æœŸ" + s + "\tæ–‡ä»¶å¤§å°" + Filelist[i].length()*1.0/1024 + "KB" + "\n");
 				 } 
 			}    
             inFile.close();

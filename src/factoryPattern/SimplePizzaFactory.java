@@ -4,13 +4,13 @@ import java.util.Random;
 
 /**
  * 
- * @author ×æ¸ù
- *	SimplePizzaFactoryÊÇÒ»¸öÅûÈø¶ÔÏóÉú³É¡°¹¤³§¡±£¬¸ù¾İ²»Í¬µÄtypeÉú³É²»Í¬µÄPizzaÊµÀı
+ * @author ï¿½ï¿½ï¿½
+ *	
  */
 
 public class SimplePizzaFactory {
 	
-	//Éú³É¾ßÌåµÄPizzaÊµÀı
+	//ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½PizzaÊµï¿½ï¿½
 	public Pizza createPizza(String type) {
 		switch(type) {
 		case "cheese":
@@ -23,7 +23,7 @@ public class SimplePizzaFactory {
 			ClamPizza clp = new ClamPizza();
 			return clp;
 		default :
-			System.out.println("ÊäÈëÓĞÎó£¡");
+			System.out.println("è¾“å…¥é”™è¯¯ï¼");
 			return null;
 		}
 	}

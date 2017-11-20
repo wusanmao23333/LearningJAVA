@@ -1,6 +1,6 @@
 package serviceArithmetic;
 /**
- * SJF一个队列算法
+ * 
  * author by zugen
  * data: 2017/11/1
  */
@@ -22,7 +22,7 @@ public class SJF {
 		task = new ArrayList<Task>();
 		processor = new ArrayList<Task>();
         Scanner scanner = null;
-        int Time = 0;  //起始时刻
+        int Time = 0;  //锟斤拷始时锟斤拷
         try {
             scanner = new Scanner(new File(fileString));
             while (scanner.hasNext() || !task.isEmpty()) {

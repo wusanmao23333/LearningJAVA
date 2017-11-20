@@ -2,19 +2,19 @@ package singletonPattern;
 
 /**
  * 
- * @author ×æ¸ù
- * µ¥ÀıÄ£Ê½
+ * @author ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½Ä£Ê½
  */
 
 public class ChocolateBoiler {
 
 	private static ChocolateBoiler cBoiler;
 	
-	//ÅĞ¶Ï¹øÂ¯ÊÇ·ñÎª¿Õ
+	
     private static boolean empty;
-    //ÅĞ¶Ï¹øÂ¯ÊÇ·ñÒÑÖó·Ğ
+   
     private static boolean boiled;
-	//¹¹Ôì·½·¨
+	
     private ChocolateBoiler() {
     	this.empty = true;
     	this.boiled = false;
@@ -29,29 +29,29 @@ public class ChocolateBoiler {
     
     public void fill() {
     	if (empty == true) {
-    		System.out.println("Ïò¹øÂ¯ÌîÂúÇÉ¿ËÁ¦ºÍÅ£ÄÌ»ìºÏÎï£¡");
+    		System.out.println("å‘é”…ç‚‰å¡«æ»¡å·§å…‹åŠ›å’Œç‰›å¥¶çš„æ··åˆç‰©ï¼");
     		empty = false;
     	} else {
-    		System.out.println("¹øÂ¯ÒÑ¾­ÂúÁË£¡");
+    		System.out.println("é”…ç‚‰å·²ç»æ»¡äº†ï¼");
     	}
     } 
     
     public void boil() {
     	if (boiled == false) {
-    		System.out.println("½«¹øÂ¯Öó·Ğ£¡");
+    		System.out.println("å°†ç‚‰å†…ç…®æ²¸ï¼");
     		boiled = true;
     	} else {
-    		System.out.println("¹øÂ¯ÒÑ¾­Öó·ĞÁË£¡");
+    		System.out.println("é”…ç‚‰å·²ç»ç…®æ²¸äº†ï¼");
     	}
     }
     
     public void drain() {
     	if (empty == false && boiled == true) {
-    		System.out.println("ÅÅ³öÖó·ĞµÄÇÉ¿ËÁ¦ºÍÅ£ÄÌ£¡");
+    		System.out.println("æ’å‡ºç…®æ²¸çš„å·§å…‹åŠ›å’Œç‰›å¥¶ï¼");
     		empty = true;
     		boiled = false;
     	} else {
-    		System.out.println("Î´Öó·Ğ»òÕßÎ´ÌîÂúµ¼ÖÂÅÅ³öÊ§°Ü£¡");
+    		System.out.println("æœªç…®æ²¸æˆ–è€…æ°´æœªå¡«æ»¡å¯¼è‡´æ’å‡ºå¤±è´¥ï¼");
     	}
     }
 

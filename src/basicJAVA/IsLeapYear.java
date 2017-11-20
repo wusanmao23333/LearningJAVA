@@ -11,15 +11,15 @@ public class IsLeapYear {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		  System.out.print("ÇëÊäÈëÄê·İ£¨1990µ½2007£©£º ");
+		  System.out.print("è¯·è¾“å…¥1990åˆ°2007çš„å¹´ä»½ï¼š ");
 		  Scanner scan = new Scanner(System.in);
 		  int read = scan.nextInt();
 		  if (read % 4 == 0 && read % 100 != 0) {
-			  System.out.println(read + " ÊÇÈòÄê£¡");
+			  System.out.println(read + " æ˜¯é—°å¹´ï¼");
 		  } else if (read % 400 == 0) {
-			  System.out.println(read + " ÊÇÈòÄê£¡");
+			  System.out.println(read + " ä¸æ˜¯é—°å¹´ï¼");
 		  } else {
-			  System.out.println(read + " ²»ÊÇÈòÄê£¡");
+			  System.out.println(read + " ä¸æ˜¯é—°å¹´ï¼");
 		  }
 	}
 	

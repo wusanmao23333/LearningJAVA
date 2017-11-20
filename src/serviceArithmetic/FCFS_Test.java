@@ -1,6 +1,6 @@
 package serviceArithmetic;
 /**
- * FCFS²âÊÔmain·½·¨
+ * 
  * author by zugen
  * data: 2017/11/1
  */
@@ -13,11 +13,11 @@ public class FCFS_Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("---------------------");
-		System.out.println("Ò»Ìõ¶ÓÁĞµÄÇé¿öÈçÏÂ£º");
+		System.out.println("ä¸€æ¡é˜Ÿåˆ—çš„æƒ…å†µï¼š");
 		System.out.println("---------------------");
 		FCFS fcfs = new FCFS("FileList.txt");
 		System.out.println("---------------------");
-		System.out.println("Á©Ìõ¶ÓÁĞµÄÇé¿öÈçÏÂ£º");
+		System.out.println("ä¿©æ¡é˜Ÿåˆ—çš„æƒ…å†µï¼š");
 		System.out.println("---------------------");
 		FCFS_two fcfs2 = new FCFS_two("FileList.txt");
 	}

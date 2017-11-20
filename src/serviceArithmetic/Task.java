@@ -1,18 +1,18 @@
 package serviceArithmetic;
 /**
- * TaskÀà
+ * 
  * author by zugen
  * data: 2017/11/1
  */
 public class Task {
 
-	private int taskID; //ÈÎÎñID
-	private int arrivalTime; //µ½´ïÊ±¼ä
-	private int serviceTime; //·þÎñÊ±¼ä
-	private int startingTime; //¿ªÊ¼Ê±¼ä
-	private int finishingTime; //Íê³ÉÊ±¼ä=¿ªÊ¼Ê±¼ä+·þÎñÊ±¼ä
-	private int turnAroundTime; //ÖÜ×ªÊ±¼ä=Íê³ÉÊ±¼ä-´ïµ½Ê±¼ä
-	private double weightTurnAround; //´øÈ¨ÖÜ×ªÊ±¼ä=ÖÜ×ªÊ±¼ä/·þÎñÊ±¼ä
+	private int taskID; //ï¿½ï¿½ï¿½ï¿½ID
+	private int arrivalTime; //ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+	private int serviceTime; //ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+	private int startingTime; //ï¿½ï¿½Ê¼Ê±ï¿½ï¿½
+	private int finishingTime; //ï¿½ï¿½ï¿½Ê±ï¿½ï¿½=ï¿½ï¿½Ê¼Ê±ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
+	private int turnAroundTime; //ï¿½ï¿½×ªÊ±ï¿½ï¿½=ï¿½ï¿½ï¿½Ê±ï¿½ï¿½-ï¿½ïµ½Ê±ï¿½ï¿½
+	private double weightTurnAround; //ï¿½ï¿½È¨ï¿½ï¿½×ªÊ±ï¿½ï¿½=ï¿½ï¿½×ªÊ±ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
     private boolean visited = false; 
 
 	public Task(int taskID, int arrivalTime, int serviceTime) {
