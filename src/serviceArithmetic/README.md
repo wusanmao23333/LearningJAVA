@@ -117,15 +117,14 @@ weightTurnAround //带权周转时间=周转时间/服务时间
 #### 实验结果
 一个队列情况   
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS1.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS2.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS3.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS01.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS02.png)   
+   
   
 两个队列情况  
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS4.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS5.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS6.png)  
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS03.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/FCFS04.png)   
 
 ### 模拟实现SJF（短作业优先）
 
@@ -226,15 +225,15 @@ weightTurnAround //带权周转时间=周转时间/服务时间
 #### 实验结果
 一个队列情况   
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF1.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF2.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF3.png)    
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF01.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF02.png)   
+    
 
 两个队列情况  
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF4.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF5.png)   
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF6.png) 
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF03.png)   
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/SJF04.png)   
+ 
 
 
 
