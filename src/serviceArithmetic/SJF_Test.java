@@ -15,11 +15,11 @@ public class SJF_Test {
 		System.out.println("---------------------");
 		System.out.println("一条队列的情况：");
 		System.out.println("---------------------");
-		SJF sjf = new SJF("FileList.txt");
+		SJF sjf = new SJF("src/serviceArithmetic/input.txt");
 		System.out.println("---------------------");
 		System.out.println("俩条队列的情况：");
 		System.out.println("---------------------");
-		SJF_two sjf2 = new SJF_two("FileList.txt");
+		SJF_two sjf2 = new SJF_two("src/serviceArithmetic/input.txt");
 	}
 
 }

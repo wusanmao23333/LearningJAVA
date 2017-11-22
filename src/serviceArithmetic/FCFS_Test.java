@@ -15,11 +15,11 @@ public class FCFS_Test {
 		System.out.println("---------------------");
 		System.out.println("一条队列的情况：");
 		System.out.println("---------------------");
-		FCFS fcfs = new FCFS("FileList.txt");
+		FCFS fcfs = new FCFS("src/serviceArithmetic/input.txt");
 		System.out.println("---------------------");
 		System.out.println("俩条队列的情况：");
 		System.out.println("---------------------");
-		FCFS_two fcfs2 = new FCFS_two("FileList.txt");
+		FCFS_two fcfs2 = new FCFS_two("src/serviceArithmetic/input.txt");
 	}
 
 }
