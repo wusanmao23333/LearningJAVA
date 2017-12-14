@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    android:stretchColumns="0">
+    <TableRow>
+        <TextView
+            android:text="Open..."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:text="Ctrl-O"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Save..."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:text="Ctrl-S"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Save as..."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#FFFFFF" />
+    <TableRow>
+        <TextView
+            android:text="X Import..."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="X Export..."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:text="Ctrl-E"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#FFFFFF" />
+    <TableRow>
+        <TextView
+            android:text="Quit"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+
+    </TableRow>
+</TableLayout>
