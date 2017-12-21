@@ -1,10 +1,13 @@
-package singletonPattern;
+package multithreading;
 
-
-public class ChocolateBoiler {
+/**
+ * 
+ * @author Administrator
+ * 单例模式进行改造，使其支持多线程，并且是线程安全的。
+ */
+public class ChocolateBoiler implements Runnable {
 
 	private static ChocolateBoiler cBoiler;
-	
 	
     private static boolean empty;
    
@@ -49,5 +52,23 @@ public class ChocolateBoiler {
     		System.out.println("未煮沸或者水未填满导致排出失败！");
     	}
     }
+
+    public synchronized void doit() {
+    	if (cBoiler != null) {
+    		try {
+        		cBoiler.fill();
+        		cBoiler.boil();
+        		cBoiler.drain();
+			} catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			} 
+    	}
+    }
+    
+	@Override
+	public void run() {
+		doit();
+	}
 
 }
