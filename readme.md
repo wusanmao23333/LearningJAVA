@@ -46,3 +46,14 @@
 ##### StudentSerialization.java -- 学生序列化
 ##### StudentSerialization_Test.java -- 测试类 
 ##### README.md -- 实验报告
+
+### multithreading：-- 实验六 java的多线程  
+##### ChocolateBoiler.java 
+##### ChocolateBoiler_Test.java 
+##### Summing.java -- 多线程加法计算
+##### README.md -- 实验报告
+
+### simplechat：-- 实验七 java的网络编程  
+##### Client.java -- 模拟客户端
+##### Server.java -- 模拟服务端   
+##### README.md -- 实验报告
