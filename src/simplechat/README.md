@@ -10,7 +10,7 @@
 #### 实验结果  
 result:   
 
-![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/client.png)  
+![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/client.png)  
 ![image](https://raw.githubusercontent.com/wusanmao23333/LearningJAVA/master/img/server.png)  
 
 
